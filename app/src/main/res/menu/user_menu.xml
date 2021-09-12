@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:title="Menu" android:checkableBehavior="single">
+        <item android:id="@+id/home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:background="#AAA"
+            android:title="Home"
+            android:name="android:itemBackground">
+            #FFFF
+        </item>
+
+
+        <item android:id="@+id/profile"
+            android:icon="@drawable/ic_baseline_assignment_ind_24"
+            android:title="Profile"
+            android:name="android:itemBackground">
+            #FFFF
+        </item>
+
+        <item android:id="@+id/Menufavourite"
+            android:icon="@drawable/ic_baseline_star_24"
+            android:title="Marked Jobs"
+            android:name="android:itemBackground">
+            #FFFF
+        </item>
+
+
+        <item android:id="@+id/menuCart"
+            android:icon="@drawable/ic_baseline_shopping_cart_24"
+            android:title="History"
+            android:name="android:itemBackground">
+            #FFFF
+        </item>
+
+
+    </group>
+
+
+    <item android:title="Info">
+        <menu>
+
+            <item android:id="@+id/menuAbout"
+                android:icon="@drawable/ic_baseline_info_24"
+                android:background="#AAA"
+                android:title="About"
+                android:name="android:itemBackground">
+                #FFFF
+            </item>
+
+
+            <item android:id="@+id/menuFeedback"
+                android:icon="@drawable/ic_baseline_email_24"
+                android:title="Feedbacks"
+                android:name="android:itemBackground">
+                #FFFF
+            </item>
+
+
+            <item android:id="@+id/menuLogout"
+                android:icon="@drawable/ic_baseline_exit_to_app_24"
+                android:title="Logout"
+                android:name="android:itemBackground">
+                #FFFF
+            </item>
+        </menu>
+
+
+
+    </item>
+
+
+</menu>

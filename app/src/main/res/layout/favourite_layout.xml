@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="315dp"
+    android:background="#e6e6ff"
+    android:layout_margin="5dp"
+    android:gravity="center"
+    android:layout_marginStart="@dimen/small"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_marginLeft="@dimen/small">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/petimage"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/noimage" />
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/small"
+        android:paddingRight="@dimen/small">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:text="Hirer:"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:fontFamily="serif"
+                android:textColor=" #000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/PetName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dog name"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:fontFamily="serif"
+                android:textColor=" #990000"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:text="JobPosition:"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:textColor="#000000"
+                android:fontFamily="serif"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/PetAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="dog age"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:fontFamily="serif"
+                android:textColor="#0000ff"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:text="DueDate:"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/PetPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(In Nrs)"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:textColor="#0000ff"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:text="Payment:"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:fontFamily="serif"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/PetPiece"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Availablity"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:fontFamily="serif"
+                android:textColor="#0000ff"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="JobDescription:"
+                android:textStyle="bold"
+                android:textColor=" #000000"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/PetDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="describe about dog"
+                android:fontFamily="serif"
+                android:textColor=" #0000ff"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/PetBuy"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#2eb82e"
+        android:text="Apply"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/PetRemove"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="80dp"
+        android:backgroundTint="#444444"
+        android:text="Remove"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

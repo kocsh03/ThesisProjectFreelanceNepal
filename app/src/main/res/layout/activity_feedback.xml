@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.FeedbackActivity">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="Feedback"
+
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:gravity="left"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/feedbackimg"/>
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="#0066cc"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/user"
+        android:drawableTint="#000099"
+        />
+
+    <EditText
+        android:id="@+id/recipient"
+        android:text="freelancenepal@gmail.com"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subject"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="#0066cc"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@drawable/subject"
+        android:drawableTint="#000099"
+
+        />
+
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Message"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="#0066cc"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@drawable/message"
+        android:drawableTint="#000099"
+        />
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:text="Submit"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        />
+
+
+
+
+
+
+</LinearLayout>

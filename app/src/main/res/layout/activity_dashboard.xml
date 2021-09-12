@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:id="@+id/linearlayout"
+    android:background="@drawable/capp"
+    android:padding="20dp"
+    tools:context=".ui.Dashboard">
+
+
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:padding="25dp"
+        android:src="@drawable/clients" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+
+        <Button
+            android:id="@+id/btnAddPet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/black"
+            android:text="Post a GIG"
+            android:fontFamily="serif"
+            android:textColor="#fff"
+            app:backgroundTint="#3E00FF" />
+
+
+
+    </LinearLayout>
+</LinearLayout>

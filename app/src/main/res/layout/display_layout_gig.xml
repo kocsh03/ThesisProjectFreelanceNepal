@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="315dp"
+    android:background="#e6e6ff"
+    android:layout_margin="5dp"
+    android:gravity="center"
+    android:layout_marginStart="@dimen/small"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_marginLeft="@dimen/small">
+
+
+    <ImageView
+        android:id="@+id/stdimage"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/picture" />
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:text="Hirer:"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:fontFamily="serif"
+                android:textColor=" #000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvPetName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dog name"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:fontFamily="serif"
+                android:textColor=" #0000ff"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:text="JobPosition:"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:textColor="#000000"
+                android:fontFamily="serif"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvPetAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="dog age"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:fontFamily="serif"
+                android:textColor="#0000ff"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:text="Payment:"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:textColor="#145214"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvPetPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(In Nrs)"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:textColor="#0000ff"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+
+                android:text="DueDate:"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:fontFamily="serif"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvPetPiece"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Availablity"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:fontFamily="serif"
+                android:textColor="#0000ff"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="JobDescription:"
+                android:textStyle="bold"
+                android:textColor=" #000000"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/tvPetDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="describe about dog"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:textColor=" #0000ff"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnFavourite"
+                android:layout_width="130dp"
+                android:layout_height="55dp"
+                android:backgroundTint="#2eb82e"
+                android:text="Mark JOB"
+                android:fontFamily="serif"
+
+                android:drawableRight="@drawable/like"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:id="@+id/PetRemove"
+                android:layout_width="150dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="80dp"
+                android:backgroundTint="#444444"
+                android:text="Remove Job"
+                android:fontFamily="serif"
+
+                android:drawableRight="@drawable/ic_delete"
+                android:textStyle="bold"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
