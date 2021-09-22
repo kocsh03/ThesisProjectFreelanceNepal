@@ -1,10 +1,5 @@
-Freelance Nepal
-#Thesis Final Year Project
-.
-Clients are registered using postman.
-Freelancers are registered from the registration form given.
+An android application to easily post or apply for gigs. You either login as a client or as a freelancer. You can post gig advertisements as a client and freelancers can view the advertisement and send application to apply for the gig.
 .
 .
-Clients can add job projects and gigs, which can be viewed by freelancers.
-. 
-Freelancers can mark the job and which moves the job towards the marked job section, then they can choose from the job and contact the client.
+Koshish Ghale "25B"
+10256660
